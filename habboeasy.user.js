@@ -4,8 +4,8 @@
 // @namespace   http://twitter.com/Onhabboeasy
 // @description Userscript for Habbo Hotel
 // @version     1.0.1
-// @author		iButton
-// @author		Tetule
+// @author		Xander
+// @author		Vlacox
 
 // @icon        http://i.imgur.com/s3Qw041.png
 // @include     http://www.habbo.es/*
