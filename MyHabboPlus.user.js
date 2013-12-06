@@ -7,7 +7,7 @@
 // @author		iButton
 // @author		Tetule
 
-// @icon        https://raw.github.com/MyHabboPlus/userscript/beta/img/favicon.png
+// @icon        http://i.imgur.com/s3Qw041.png
 // @include     http://www.habbo.es/*
 // @include     https://www.habbo.es/*
 // @include     http://www.habbo.com/*
@@ -46,15 +46,15 @@
 // @grant       GM_getResourceText
 // @grant       GM_getResourceURL
 // @grant       GM_xmlhttpRequest
-// @resource    CSSnewhabbo https://raw.github.com/MyHabboPlus/userscript/beta/css/newhabbo.css
-// @resource    CSSmyhabboplus https://raw.github.com/MyHabboPlus/userscript/beta/css/myhabboplus.css
-// @resource    PNGSprites https://raw.github.com/MyHabboPlus/userscript/beta/img/sprites.png
+// @resource    CSSnewhabbo https://raw.github.com/Habboeasy/userscript-1/beta/css/newhabbo.css
+// @resource    CSSmyhabboplus https://raw.github.com/Habboeasy/userscript-1/beta/css/myhabboplus.css
+// @resource    PNGSprites http://i.imgur.com/MhilY5Q.png
 // @require     http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
-// @require     https://raw.github.com/MyHabboPlus/userscript/beta/config.js
-// @require     https://raw.github.com/MyHabboPlus/userscript/beta/langs.js
-// @require     https://raw.github.com/MyHabboPlus/userscript/beta/modules/system.js
-// @require     https://raw.github.com/MyHabboPlus/userscript/beta/modules/updater.js
-// @require     https://raw.github.com/MyHabboPlus/userscript/beta/modules/habboHome.js
-// @require     https://raw.github.com/MyHabboPlus/userscript/beta/modules/habboSearch.js
-// @require     https://raw.github.com/MyHabboPlus/userscript/beta/modules/newArticles.js
+// @require     https://raw.github.com/Habboeasy/userscript-1/beta/config.js
+// @require     https://raw.github.com/Habboeasy/userscript-1/beta/langs.js
+// @require     https://raw.github.com/Habboeasy/userscript-1/beta/modules/system.js
+// @require     https://raw.github.com/Habboeasy/userscript-1/beta/modules/updater.js
+// @require     https://raw.github.com/Habboeasy/userscript-1/beta/modules/habboHome.js
+// @require     https://raw.github.com/Habboeasy/userscript-1/beta/modules/habboSearch.js
+// @require     https://raw.github.com/Habboeasy/userscript-1/beta/modules/newArticles.js
 // ==/UserScript==
