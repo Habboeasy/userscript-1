@@ -1,4 +1,4 @@
-// MyHabboPlus System module
+/ Habboeasy System module
 if (window.top==window){
     // Config texts
     if(prefNewHabbo=="1"){
@@ -83,7 +83,7 @@ if (window.top==window){
     
     // Config module
     
-    $("#habbos-online").after('<div id="myhp-button-config">'+text["Preferences"]+'<div class="myhp-button-config-name">MyHabboPlus</div></div>');
+    $("#habbos-online").after('<div id="myhp-button-config">'+text["Preferences"]+'<div class="myhp-button-config-name">Habboeasy</div></div>');
     
 
     var prefLangValueAuto=""; var prefLangValueES=""; var prefLangValueEN=""; var prefLangValuePT=""; var prefLangValueFR=""; var prefLangValueIT=""; var prefLangValueDE=""; var prefLangValueTR=""; var prefUpdateFreq1h=""; var prefUpdateFreq2h=""; var prefUpdateFreq8h=""; var prefUpdateFreq1d=""; var prefUpdateFreq1w=""; var prefUpdateFreqNo=""; var prefUpdateChannelRelease=""; var prefUpdateChannelBeta=""; var prefUpdateChannelCustom=""; var prefUpdateCustomChannelStyle="";  var prefNewHabboValue; var prefHomeInfoValue; var prefHabboSearchValue; var prefNewArticlesValue; var prefNewArticlesVideoValue; var prefTweetListValue;
@@ -199,7 +199,7 @@ if (window.top==window){
     // Twitter Lists
     if (dir=="/me" && prefTweetList=="1") {
         $("#twitterfeed-habblet-container .twitter-timeline").attr("width", "376").attr("height", "400");
-        $("#twitterfeed-habblet-container").after('<div style="float:left;"><a class="twitter-timeline" data-dnt="true" href="https://twitter.com/MyHabboPlus/habbo-'+twitterHotel+'"  data-widget-id='+twitterWidget[hotel]+' width="376" height="400">Tweets by @MyHabboPlus/habbo-'+twitterHotel+'</a></div>');
+        $("#twitterfeed-habblet-container").after('<div style="float:left;"><a class="twitter-timeline" data-dnt="true" href="https://twitter.com/OnHabboeasy/habbo-'+twitterHotel+'"  data-widget-id='+twitterWidget[hotel]+' width="376" height="400">Tweets by @Onhabboeasy/habbo-'+twitterHotel+'</a></div>');
         !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
     }
 }
