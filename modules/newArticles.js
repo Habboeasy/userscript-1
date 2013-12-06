@@ -1,4 +1,4 @@
-// MyHabboPlus New articles module
+// Habboeasy New articles module
 if (window.top==window){
             
     if(dir=="/articles" && prefNewArticles=="1" || dir=="/articles/" && prefNewArticles=="1"){
