@@ -1,9 +1,9 @@
-// MyHabboPlus Userscript (http://www.MyHabboPlus.com) are under GPLv2: https://www.gnu.org/licenses/gpl-2.0.html
+// Habboeasy Userscript (http://www.unknow.easy) are under GPLv2: https://www.gnu.org/licenses/gpl-2.0.html
 // ==UserScript==
-// @name        MyHabboPlus
-// @namespace   http://myhabboplus.com
+// @name        Habboeasy
+// @namespace   http://twitter.com/Onhabboeasy
 // @description Userscript for Habbo Hotel
-// @version     1.0.1b2
+// @version     1.0.1
 // @author		iButton
 // @author		Tetule
 
