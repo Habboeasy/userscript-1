@@ -1,5 +1,60 @@
-<script>
-<!--
-document.write(unescape("//%20Habboeasy%20Userscript%20%28http%3A//www.unknow.easy%29%20are%20under%20GPLv2%3A%20https%3A//www.gnu.org/licenses/gpl-2.0.html%0A//%20%3D%3DUserScript%3D%3D%0A//%20@name%20%20%20%20%20%20%20%20Habboeasy%0A//%20@namespace%20%20%20http%3A//twitter.com/Onhabboeasy%0A//%20@description%20Userscript%20for%20Habbo%20Hotel%0A//%20@version%20%20%20%20%201.0.1%0A//%20@author%09%09Xander%0A//%20@author%09%09Vlacox%0A%0A//%20@icon%20%20%20%20%20%20%20%20http%3A//i.imgur.com/s3Qw041.png%0A//%20@include%20%20%20%20%20http%3A//www.habbo.es/*%0A//%20@include%20%20%20%20%20https%3A//www.habbo.es/*%0A//%20@include%20%20%20%20%20http%3A//www.habbo.com/*%0A//%20@include%20%20%20%20%20https%3A//www.habbo.com/*%0A//%20@include%20%20%20%20%20http%3A//www.habbo.fi/*%0A//%20@include%20%20%20%20%20https%3A//www.habbo.fi/*%0A//%20@include%20%20%20%20%20http%3A//www.habbo.com.br/*%0A//%20@include%20%20%20%20%20https%3A//www.habbo.com.br/*%0A//%20@include%20%20%20%20%20http%3A//www.habbo.com.tr/*%0A//%20@include%20%20%20%20%20https%3A//www.habbo.com.tr/*%0A//%20@include%20%20%20%20%20http%3A//www.habbo.it/*%0A//%20@include%20%20%20%20%20https%3A//www.habbo.it/*%0A//%20@include%20%20%20%20%20http%3A//www.habbo.fr/*%0A//%20@include%20%20%20%20%20https%3A//www.habbo.fr/*%0A//%20@include%20%20%20%20%20http%3A//www.habbo.nl/*%0A//%20@include%20%20%20%20%20https%3A//www.habbo.nl/*%0A//%20@include%20%20%20%20%20http%3A//www.habbo.de/*%0A//%20@include%20%20%20%20%20https%3A//www.habbo.de/*%0A//%20@include%20%20%20%20%20http%3A//www.habbo.dk/*%0A//%20@include%20%20%20%20%20https%3A//www.habbo.dk/*%0A//%20@include%20%20%20%20%20http%3A//www.habbo.no/*%0A//%20@include%20%20%20%20%20https%3A//www.habbo.no/*%0A//%20@include%20%20%20%20%20http%3A//www.habbo.se/*%0A//%20@include%20%20%20%20%20https%3A//www.habbo.se/*%0A%0A//%20@exclude%20%20%20%20%20http%3A//www.habbo.*/%0A//%20@exclude%20%20%20%20%20http%3A//www.habbo.*/account/submit%0A//%20@exclude%20%20%20%20%20http%3A//www.habbo.*/identity/*%0A//%20@exclude%20%20%20%20%20https%3A//www.habbo.*/%0A//%20@exclude%20%20%20%20%20https%3A//www.habbo.*/account/submit%0A//%20@exclude%20%20%20%20%20https%3A//www.habbo.*/identity/*%0A%0A//%20@grant%20%20%20%20%20%20%20GM_setValue%0A//%20@grant%20%20%20%20%20%20%20GM_getValue%0A//%20@grant%20%20%20%20%20%20%20GM_addStyle%0A//%20@grant%20%20%20%20%20%20%20GM_getResourceText%0A//%20@grant%20%20%20%20%20%20%20GM_getResourceURL%0A//%20@grant%20%20%20%20%20%20%20GM_xmlhttpRequest%0A//%20@resource%20%20%20%20CSSnewhabbo%20https%3A//raw.github.com/Habboeasy/userscript-1/beta/css/newhabbo.css%0A//%20@resource%20%20%20%20CSSmyhabboplus%20https%3A//raw.github.com/Habboeasy/userscript-1/beta/css/myhabboplus.css%0A//%20@resource%20%20%20%20PNGSprites%20http%3A//i.imgur.com/MhilY5Q.png%0A//%20@require%20%20%20%20%20http%3A//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js%0A//%20@require%20%20%20%20%20https%3A//raw.github.com/Habboeasy/userscript-1/beta/config.js%0A//%20@require%20%20%20%20%20https%3A//raw.github.com/Habboeasy/userscript-1/beta/langs.js%0A//%20@require%20%20%20%20%20https%3A//raw.github.com/Habboeasy/userscript-1/beta/modules/system.js%0A//%20@require%20%20%20%20%20https%3A//raw.github.com/Habboeasy/userscript-1/beta/modules/updater.js%0A//%20@require%20%20%20%20%20https%3A//raw.github.com/Habboeasy/userscript-1/beta/modules/habboHome.js%0A//%20@require%20%20%20%20%20https%3A//raw.github.com/Habboeasy/userscript-1/beta/modules/habboSearch.js%0A//%20@require%20%20%20%20%20https%3A//raw.github.com/Habboeasy/userscript-1/beta/modules/newArticles.js%0A//%20%3D%3D/UserScript%3D%3D%0A"));
-//-->
-</script>
+// Habboeasy Userscript (http://www.unknow.easy) are under GPLv2: https://www.gnu.org/licenses/gpl-2.0.html
+// ==UserScript==
+// @name        Habboeasy
+// @namespace   http://twitter.com/Onhabboeasy
+// @description Userscript for Habbo Hotel
+// @version     1.0.1
+// @author		Xander
+// @author		Vlacox
+
+// @icon        http://i.imgur.com/s3Qw041.png
+// @include     http://www.habbo.es/*
+// @include     https://www.habbo.es/*
+// @include     http://www.habbo.com/*
+// @include     https://www.habbo.com/*
+// @include     http://www.habbo.fi/*
+// @include     https://www.habbo.fi/*
+// @include     http://www.habbo.com.br/*
+// @include     https://www.habbo.com.br/*
+// @include     http://www.habbo.com.tr/*
+// @include     https://www.habbo.com.tr/*
+// @include     http://www.habbo.it/*
+// @include     https://www.habbo.it/*
+// @include     http://www.habbo.fr/*
+// @include     https://www.habbo.fr/*
+// @include     http://www.habbo.nl/*
+// @include     https://www.habbo.nl/*
+// @include     http://www.habbo.de/*
+// @include     https://www.habbo.de/*
+// @include     http://www.habbo.dk/*
+// @include     https://www.habbo.dk/*
+// @include     http://www.habbo.no/*
+// @include     https://www.habbo.no/*
+// @include     http://www.habbo.se/*
+// @include     https://www.habbo.se/*
+
+// @exclude     http://www.habbo.*/
+// @exclude     http://www.habbo.*/account/submit
+// @exclude     http://www.habbo.*/identity/*
+// @exclude     https://www.habbo.*/
+// @exclude     https://www.habbo.*/account/submit
+// @exclude     https://www.habbo.*/identity/*
+
+// @grant       GM_setValue
+// @grant       GM_getValue
+// @grant       GM_addStyle
+// @grant       GM_getResourceText
+// @grant       GM_getResourceURL
+// @grant       GM_xmlhttpRequest
+// @resource    CSSnewhabbo https://raw.github.com/Habboeasy/userscript-1/beta/css/newhabbo.css
+// @resource    CSSmyhabboplus https://raw.github.com/Habboeasy/userscript-1/beta/css/myhabboplus.css
+// @resource    PNGSprites http://i.imgur.com/MhilY5Q.png
+// @require     http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+// @require     https://raw.github.com/Habboeasy/userscript-1/beta/config.js
+// @require     https://raw.github.com/Habboeasy/userscript-1/beta/langs.js
+// @require     https://raw.github.com/Habboeasy/userscript-1/beta/modules/system.js
+// @require     https://raw.github.com/Habboeasy/userscript-1/beta/modules/updater.js
+// @require     https://raw.github.com/Habboeasy/userscript-1/beta/modules/habboHome.js
+// @require     https://raw.github.com/Habboeasy/userscript-1/beta/modules/habboSearch.js
+// @require     https://raw.github.com/Habboeasy/userscript-1/beta/modules/newArticles.js
+// ==/UserScript==
